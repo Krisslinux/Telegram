@@ -8,7 +8,7 @@ import random
 bot = telebot.TeleBot('your_bot_api_token')
 
 # List of Telegram channel usernames
-channels = ['channel1', 'channel2', 'channel3', 'channel4']
+channels = ['theDankest_memes', 'unfilteredHumor', 'dev_meme', 'programmerjokes']
 
 # Rate limiting parameters
 max_requests_per_minute = 30  # Adjust as needed
