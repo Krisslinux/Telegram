@@ -43,6 +43,10 @@ def main():
     for channel in channels:
         fetch_photos(channel)
 
+@bot.message_handler(commands=['start'])
+def handle_start(message):
+    bot.send_message(message.chat.id, "Bot is running! 🤖")
+
 # Schedule the main function to run daily
 schedule.every().day.at('00:00').do(main)
 
