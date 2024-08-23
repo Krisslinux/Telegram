@@ -5,7 +5,7 @@ import time
 import random
 
 # Replace with your bot's API token
-bot = telebot.TeleBot('your_bot_api_token')
+bot = telebot.TeleBot('7403216844:AAHSGHQswu-6OKOhiH8k8qGONnGfkp__Fhw')
 
 # List of Telegram channel usernames
 channels = ['theDankest_memes', 'unfilteredHumor', 'dev_meme', 'programmerjokes']
